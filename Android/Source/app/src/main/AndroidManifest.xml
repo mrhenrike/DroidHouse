@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.uniaogeek.droidhouse"
+    android:versionCode="1"
+    android:versionName="Versão Beta 1.0">
+
+    <!--Versão de Compilação-->
+    <uses-sdk
+        android:maxSdkVersion="25"
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <!--Permissões necessárias atualmente-->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="br.com.uniaogeek.droidhouse.activities.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!---->
+
+        <!--Activity da Tela de Login-->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <!--Activity da Tela de Registro de Usuário-->
+        <activity
+            android:name=".activities.RegistroActivity"
+            android:screenOrientation="portrait" />
+
+        <!--Activity da Tela Sobre-->
+        <activity
+            android:name=".activities.SobreActivity"
+            android:screenOrientation="portrait" />
+
+
+        <!--Activity da Lista de Dispositivos-->
+        <activity
+            android:name=".activities.ListaDispositivosActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyTheme"/>
+
+        <!--Activity da Lista de Dispositivos-->
+        <activity
+            android:name=".activities.ControlesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+    </application>
+
+</manifest>

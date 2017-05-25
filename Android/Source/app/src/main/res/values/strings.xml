@@ -1,0 +1,85 @@
+<resources>
+    <!--Tela de Splash-->
+    <string name="msnBoasVindas">Welcome!</string>
+    <string name="lblProgressBar">Opening App...</string>
+
+    <!--Informações do Aplicativo-->
+    <string name="app_name" translatable="false">Droid House</string>
+    <string name="appSubName">House Automation</string>
+    <string name="appAbout">An intelligent application that controls all the appliances and home electronics with just one click, in an integrated way. Developed to meet the basic needs of security, communication, energy management and comfort of housing. Accessibility is a strong point in terms of ease, especially for users with special needs.</string>
+    <string name="lblTitulo" translatable="false">Droid House - Smart Home</string>
+
+    <!--Tela de Login e Registro-->
+    <string name="txtAccount">All Accounts</string>
+    <string name="lblName">Name</string>
+    <string name="lblEmail" translatable="false">Email</string>
+    <string name="lblPassword">Password</string>
+    <string name="lblConfirmPassword">Confirm Password</string>
+    <string name="txtMensagemRegistroSem">No account yet?</string>
+    <string name="txtMensagemCliqueAqui">Click Here!</string>
+    <string name="txtMensagemCadastro">Already a Member?</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <!--Strings dos Botões-->
+    <string name="btnEntrar">Enter</string>
+    <string name="btnSair">Exit</string>
+    <string name="btnAjuda">Help</string>
+    <string name="btnSobre">About</string>
+    <string name="btnVoltar">Back</string>
+    <string name="btnLogin" translatable="false">Login</string>
+    <string name="btnRegistro">Register</string>
+    <string name="btnOK" translatable="false">OK</string>
+    <string name="btnCancelar">Cancel</string>
+
+    <!--Texto de algumas mensagens-->
+    <string name="lblBluetooth" translatable="false">Bluetooth</string>
+    <string name="msgHello">Hello,</string>
+    <string name="msnSair">Close</string>
+    <string name="msnLogout">Logout User!</string>
+    <string name="selecione_dispositivo">Select a device from the list!</string>
+    <string name="msgBluetooth">Connecting to device, please wait...</string>
+    <string name="nao_pareado">No paired devices!</string>
+    <string name="msnDeviceNotSupported">Device does not support bluetooth!</string>
+    <string name="msnBluetoothActive">Bluetooth Actived</string>
+    <string name="msnLigado">Turned On!</string>
+    <string name="msnDesligado">Turned Off!</string>
+    <string name="errorRFComm">Could not create Insecure RFComm Connection</string>
+    <string name="errorSocketBT">Error creating Socket!</string>
+    <string name="errorBTState">Device does not have bluetooth technology!</string>
+    <string name="msnAguarde">Waiting...</string>
+    <string name="errorBTConnect">Connection Error!</string>
+
+    <!--Strings de Descrições de Imagens-->
+    <string name="descLogoTelaSobre">Logotype from view About</string>
+
+    <!--Strings da Tela de Controles-->
+    <string name="titleDH" translatable="false">Droid House Bluetooth</string>
+    <string name="lblStatus">Status Connected!</string>
+    <string name="lblStatusError">Status Not Connected!</string>
+
+    <string name="lblTemp">Temperature</string>
+    <string name="lblTempUpdate">(Real Time)</string>
+    <string name="lblTempCurrent">waiting</string>
+    <string name="lblStatusCheck">Check Status</string>
+    <string name="lblLightControl">Lighting Control</string>
+    <string name="lblLightStatusOn">Lamps ON</string>
+    <string name="lblLightStatusOff">Lamps OFF</string>
+    <string name="lblLamp1">Lamp 1</string>
+    <string name="lblLamp2">Lamp 2</string>
+    <string name="lblLamp3">Lamp 3</string>
+    <string name="lblOutlet1">Power Outlet 1</string>
+    <string name="lblOutlet2">Power Outlet 2</string>
+
+     <!--Classe Controle Strings-->
+    <string name="action_led" translatable="false">Led</string>
+    <string name="action_sobre">About</string>
+    <string name="action_ajuda">Help</string>
+
+</resources>
